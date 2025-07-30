@@ -1,1 +1,2 @@
-docs/* linguist-detectable
+# Double asterisk applies override to all files and directories in the directory
+docs/** linguist-detectable
