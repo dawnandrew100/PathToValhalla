@@ -1,2 +1,8 @@
 # Double asterisk applies override to all files and directories in the directory
+docs/** linguist-documentation=false
 docs/** linguist-detectable
+
+# Force language classification for files in docs/
+docs/**/*.js linguist-language=JavaScript linguist-documentation=false
+docs/**/*.css linguist-language=CSS linguist-documentation=false
+docs/**/*.html linguist-language=HTML linguist-documentation=false
